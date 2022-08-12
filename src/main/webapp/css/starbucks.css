@@ -70,6 +70,25 @@ header {
 	width: 0;
 }
 
+.nav-top li:nth-last-child(1) {
+	position: relative;
+}
+
+/* 검색창, 검색버튼  */
+[type=search]{
+	width: 30px;
+	height: 30px;
+}
+
+[type=image] {
+	position : absolute;
+	top: 5px;
+	left: 5px;
+}
+	
+
+
+
 .nav-bottom li:hover {
 	background: #3a3a3a;
 	color : yellowgreen;
